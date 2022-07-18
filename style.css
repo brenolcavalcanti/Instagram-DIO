@@ -1,0 +1,120 @@
+* {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div img{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    min-width: 320px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.login{
+    max-width: 450px;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 75px;
+}
+
+.celular {
+    max-width: 500px;
+    width: 100%;
+}
+
+.logo-insta img{
+    max-width: 150px;
+    width: 100%;
+}
+
+.foto-perfil img{
+    padding: 5px 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.login .login-superior{
+    text-align: center;
+}
+
+.login-superior{
+    background-color: white;
+    border: 1px solid rgb(204, 204, 204);
+    justify-self: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.remover a{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.login-inferior{
+    background-color: white;
+    border: 1px solid rgb(204, 204, 204);
+    max-height: 90px;
+}
+
+.login-inferior p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-inferior p a{
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.continue-como a{
+    width: 220px;
+    background-color: #0095f6;
+    padding: 5px 10px;
+    border-radius: 30px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.baixe{
+    text-align: center;
+    font-size: 20px;
+}
+
+.apple img{
+    max-width: 140px;
+    max-height: 140px;
+    width: 100%;
+}
+
+.play-store img{
+    max-width: 135px;
+    max-height: 140px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.icons{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
